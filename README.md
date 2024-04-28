@@ -21,7 +21,7 @@ Dependency Injection (DI) is a design pattern that allows software components to
 
 # What are the Service Lifetime Types?
 
-When using Dependency Injection, the lifecycle of injected dependencies should also be considered. The lifecycle determines how long a component will live and can generally be of three main types: **Singleton, Transient, and Scoped.**
+When using Dependency Injection, the lifetime of injected dependencies should also be considered. The lifetime determines how long a component will live and can generally be of three main types: **Singleton, Transient, and Scoped.**
 
 * **Singleton:** A component is created only once throughout the application and the same instance is used for all requests. This is useful when the same instance is shared across the application, such as a database connection or a settings manager.
 * **Transient:** A new instance of the component is created for each request. This increases memory consumption but is ideal when state sharing between dependencies is not desired.
@@ -29,4 +29,4 @@ When using Dependency Injection, the lifecycle of injected dependencies should a
 
 # Conclusion
 
-Dependency Injection reduces tight coupling between components, making the code more testable, flexible, and easier to maintain. Additionally, Dependency Injection provides flexibility in how components are created and used through lifecycle types. Therefore, learning and implementing Dependency Injection can improve the quality and flexibility of your software projects.
+Dependency Injection reduces tight coupling between components, making the code more testable, flexible, and easier to maintain. Additionally, Dependency Injection provides flexibility in how components are created and used through lifetime types. Therefore, learning and implementing Dependency Injection can improve the quality and flexibility of your software projects.
